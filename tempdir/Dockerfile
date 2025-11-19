@@ -7,3 +7,4 @@ COPY ./templates /home/myapp/templates/
 COPY sample_app.py /home/myapp/
 EXPOSE 5000
 CMD python /home/myapp/sample_app.py
+FROM python
